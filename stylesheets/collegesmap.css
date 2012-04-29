@@ -1,0 +1,162 @@
+#sidebar {
+	float: left;
+	margin: 0px 6px;
+	width: 200px;
+}
+
+#sidebar .box {
+	margin: 6px;
+}
+
+#sidebar .scroll {
+	height: 300px;
+	margin: 0px;
+	overflow-y: scroll;
+}
+
+.studentlist ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.studentlist li {
+	min-height: 60px;
+	padding: 3px;
+}
+
+.studentlist .picture {
+	padding: 3px;
+	float: left;
+}
+
+.studentlist .picture img {
+	width: 50px;
+	height: 50px;
+}
+
+.studentlist .odd {
+	background-color: #f7f7f7;
+}
+
+.studentlist .friend {
+	background-color: #fff9d7;
+}
+
+.studentlist .action {
+	float: right;
+	margin-right: 24px;
+}
+
+#content, footer {
+	margin: 6px 0px 0px 212px;
+}
+
+.messagebox {
+	margin-bottom: 6px;
+}
+
+.map {
+	height: 600px;
+}
+
+footer {
+	text-align: center;
+}
+
+#infoform {
+	padding-left: 0px;
+}
+
+#infoform .field {
+	padding-bottom: 6px;
+	min-height: 22px;
+}
+
+#infoform .field label {
+	display: block;
+}
+
+#infoform .field input[type="text"], .field select, .nonedit {
+	min-height: 16px;
+}
+
+#infoform .field .nonedit {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.spinner {
+	background-image: url('../images/spinner.gif');
+	float: right;
+	width: 16px;
+	height: 16px;
+	margin: 3px;
+}
+
+#spinner {
+	display: none;
+}
+
+#statistics .stat {
+	display: block;
+	padding-bottom: 6px;
+}
+
+#information p {
+	text-align: justify;
+}
+
+.comments {
+	margin-top: 6px;
+}
+
+#friendslist {
+	height: 300px;
+	overflow-y: scroll;
+}
+
+/* FB style boxes */
+.messagebox
+{
+    background-color: #f7f7f7;
+    border: 1px solid #cccccc;
+    color: #333333;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.success
+{
+    background-color: #eceff6;
+    border: 1px solid #d4dae8;
+}
+
+.info
+{
+    background-color: #fff9d7;
+    border: 1px solid #e2c822;
+}
+
+.error
+{
+    background-color: #ffebe8;
+    border: 1px solid #dd3c10;
+}
+
+/* Fix for popovers bootstrap */
+
+.popover {
+	background-color: white;
+}
+
+.popover .inner {
+	width: 200px;
+}
+
+/* Fix for facebook comment box */
+
+.fb-comments, .fb-comments * {
+    width:100% !important;
+}
